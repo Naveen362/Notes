@@ -10,6 +10,7 @@ const CreateNotes = () => {
     const navigate = useNavigate()
     const [isloading,setIsloading] = useState(false)
     const handleSubmit = async (e)=>{
+        //data
         e.preventDefault();
         console.log(payload)
         try {
@@ -20,6 +21,8 @@ const CreateNotes = () => {
                     'Content-type':'application/json',
                     'Authorization':`Bearer ${localStorage.getItem('token')}`
                 },
+
+                
                 body:JSON.stringify(payload)
             })
             const data = await response.json()
