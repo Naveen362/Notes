@@ -50,7 +50,7 @@ const Home = () => {
             <li className={styles.footer_links}><Link>Notes</Link></li>
             <li className={styles.footer_links}><Link>Terms & conditions</Link></li>
             <li className={styles.footer_links}><Link>Privacy policy</Link></li>
-            <li className={styles.footer_links}><Link>Made with learning @sairamdondapati</Link></li>
+            <li className={styles.footer_links}><Link>Made with learning @naveensaikammela2003</Link></li>
             <li className={styles.footer_links}>All rights reserved &copy;2025 </li>
 
 
